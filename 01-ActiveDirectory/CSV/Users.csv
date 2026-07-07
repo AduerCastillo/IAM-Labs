@@ -1,5 +1,4 @@
-FirstName,LastName,UserName,Department
-Juan,Perez,jperez,IT
-Maria,Gomez,mgomez,Finance
-Carlos,Rojas,crojas,HR
-Laura,Lopez,llopez,Security
+Name,FirstName,LastName,SamAccountName,UserPrincipalName,Department,Title,Email,Password,OU
+Juan Perez,Juan,Perez,jperez,jperez@empresa.com,IT,System Administrator,jperez@empresa.com,P@ssw0rd123,"OU=Users,DC=empresa,DC=local"
+Ana Gomez,Ana,Gomez,agomez,agomez@empresa.com,HR,HR Analyst,agomez@empresa.com,P@ssw0rd123,"OU=Users,DC=empresa,DC=local"
+Carlos Ruiz,Carlos,Ruiz,cruiz,cruiz@empresa.com,Finance,Financial Analyst,cruiz@empresa.com,P@ssw0rd123,"OU=Users,DC=empresa,DC=local"
