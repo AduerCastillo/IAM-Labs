@@ -1,4 +1,3 @@
-Name,FirstName,LastName,SamAccountName,UserPrincipalName,Department,Title,Email,Password,OU
-Juan Perez,Juan,Perez,jperez,jperez@empresa.com,IT,System Administrator,jperez@empresa.com,P@ssw0rd123,"OU=Users,DC=empresa,DC=local"
-Ana Gomez,Ana,Gomez,agomez,agomez@empresa.com,HR,HR Analyst,agomez@empresa.com,P@ssw0rd123,"OU=Users,DC=empresa,DC=local"
-Carlos Ruiz,Carlos,Ruiz,cruiz,cruiz@empresa.com,Finance,Financial Analyst,cruiz@empresa.com,P@ssw0rd123,"OU=Users,DC=empresa,DC=local"
+FirstName,LastName,SamAccountName,UserPrincipalName,Department,Title,Email,Password,OU,Groups
+Juan,Perez,jperez,jperez@empresa.local,IT,System Administrator,jperez@empresa.local,P@ssw0rd123,"OU=IT,DC=empresa,DC=local","GG_IT;VPN_Users"
+Ana,Gomez,agomez,agomez@empresa.local,HR,HR Analyst,agomez@empresa.local,P@ssw0rd123,"OU=HR,DC=empresa,DC=local","GG_HR"
